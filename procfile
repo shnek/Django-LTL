@@ -1,0 +1,1 @@
+ web: gunicorn django-ltl.learning.wsgi --log-file -
