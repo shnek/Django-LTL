@@ -1,2 +1,2 @@
- web: gunicorn django-ltl.learning.wsgi --log-file -
+ web: gunicorn django-ltl.learning.wsgi
  heroku ps:scale web=1
